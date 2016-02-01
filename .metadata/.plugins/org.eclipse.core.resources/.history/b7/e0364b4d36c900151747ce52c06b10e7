@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="RegressionTestPack">
+
+	<test name="login">
+		<classes>
+			<class name="com.selenium.test.LoginTest" />			
+		</classes>
+	</test>
+</suite>
